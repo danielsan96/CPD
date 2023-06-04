@@ -8,7 +8,6 @@ from functools import partial
 
 dist = tfp.distributions
 
-
 class OmegaEstimatorGamma:
     def __init__(self, data, m, grad_m, mu0, Sigma0):
         self.data = data
